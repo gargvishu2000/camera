@@ -26,5 +26,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run build script
-        run: ./.github/scripts/build.sh
+        run: ./myscript.sh
         shell: bash
