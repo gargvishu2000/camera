@@ -27,4 +27,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run build script
-        run: ls
+        run: |
+          chmod +x ./.github/script/myscript.sh
+           ./.github/script/myscript.sh
