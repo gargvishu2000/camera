@@ -22,3 +22,9 @@ jobs:
         AWS_REGION: 'ap-south-1'   # optional: defaults to us-east-1
         SOURCE_DIR: .
         DEST_DIR: shellscript/
+  jobs:  
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run build script
+        run: ./.github/scripts/build.sh
+        shell: bash
