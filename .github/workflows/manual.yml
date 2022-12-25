@@ -26,7 +26,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run build script
-        run: |
-          chmod +x .github/script/myscript.sh
-           .github/script/myscript.sh
-        shell: bash
+        run: ls
